@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+body{
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#photo-heading{
+    color: white;
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+#animal-photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+#animal-photos img{
+    border-radius: 50px;
+}
+
